@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-	<h1>How to organize and analyse research data</h1>
+	<meta charset ="utf-8" />
+	<title>Data Organization</title>
 </head>
 
 <body>
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/sidebar.css">
 	<div id="nav">
 	<link rel="stylesheet" href="css/navbar.css">
 		<nav>
@@ -21,21 +24,27 @@
 		</ul>
 		</nav>
 	</div>
-	<!-- this will be a sidebar later -->
-	<strong>
-		<p>For this lesson, you'll need the following:</p>
+	<link rel="stylesheet" href="css/images.css">
+	<div id="title">
+	<link rel="stylesheet" href="css/titles.css">
+		<h1>How to organize and analyse research data</h1>
+	</div>
+	<div class="sidebar2">
+	<aside>
+		<p class="bold">For this lesson, you'll need the following:</p>
 		<ul>
-			<li><p>Microsoft Excel</p></li>
-			<li><p>PASW (formerly SPSS) statistics software, or free trial download</p></li>
+			<li><p class="bold">Microsoft Excel</p></li>
+			<li><p class="bold">PASW (formerly SPSS) statistics software, or free trial download</p></li>
 		</ul>
 		
-		<p>You should already be familiar with:</p>
+		<p class="bold">You should already be familiar with:</p>
 		<ul>
-			<li><p>The basic functions and tools of Excel</p></li>
-			<li><p> Descriptive statistics and inferential statistics</p></li>
-			<li><p>Research design and how to identify independent variables and dependent variables</p></li>
+			<li><p class="bold">The basic functions and tools of Excel</p></li>
+			<li><p class="bold"> Descriptive statistics and inferential statistics</p></li>
+			<li><p class="bold">Research design and how to identify independent variables and dependent variables</p></li>
 		</ul>
-	</strong>
+	</aside>
+	</div>
 	
 	<p>This short lesson is intended for graduate and advanced undergraduate students undertaking original research projects. After completing the 30-minute lesson, you will be able to to:</p>
 	<ul>
@@ -45,7 +54,7 @@
 	</ul>
 	
 	<h2>Format data for analysis</h2>
-	<p>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls [[[NOTE: NEED LINK TO DOWNLOAD TUTORIAL EXCEL FILE]]] in Excel and follow along with the lesson, taking action as instructed. In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
+	<p>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls in Excel and follow along with the lesson, taking action as instructed. In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
 	<ol>
 		<li><p>Each variable name must be different from other variable names.</p></li>
 		<li><p>The first variable (in column A) is a unique identifier.</p></li>
@@ -54,8 +63,10 @@
 		<li><p>Your spreadsheet should look like Figure 1, and it should now be readily apparent that Column F refers to Perceived Usefulness and Column G refers to Perceived Ease of Use.</p></li>
 	</ol>
 	
-	<img src="graphics/illustrations/datalesson_fig3.png">
-	<p>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</p>
+	<div class="center">
+	<img src="graphics/illustrations/datalesson_fig3.png" alt="Image of a data table">
+	<p>Figure 1: Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</p>
+	</div>
 	
 	<p>Data values, or rows, have been input for each subject in the experiment.</p>
 	<ol>
@@ -65,14 +76,20 @@
 		<li><p>Your Raw_Dataset spreadsheet should now look like Figure 2.</p></li>
 	</ol>
 	
-	<img src="graphics/illustrations/datalesson_fig2.png">
-	<p>Values for each variable are entered in a consistent format.</p>
+	
+	<div class="center">
+	<img src="graphics/illustrations/datalesson_fig2.png" alt="Image of a data table">
+	<p>Figure 2: Values for each variable are entered in a consistent format.</p>
+	</div>
+	<div class="sidebar">
+	<aside>
+	<p>Dichotomous variables allow for the easy isolation of characteristics for analysis. For example, separating experience levels allows the researcher to test in PASW whether subjects with low experience have perceived ease of use scores significantly different from those with medium and high experience levels.</p>
+	</aside>
+	</div>
+	
+	<br>
 	
 	<p>Replace categorical data values with "0" or "1" (0=no, 1=yes) to indicate whether or not the value is represented for the given subject/item. This makes the categorical values dichotomous, which gives the researcher maximum flexibility in testing for relationships or correlations.</p>
-
-	<!-- sidebar content -->
-	<strong><p>Dichotomous variables allow for the easy isolation of characteristics for analysis. For example, separating experience levels allows the researcher to test in PASW whether subjects with low experience have perceived ease of use scores significantly different from those with medium and high experience levels.</p></strong>
-	
 	<ol>
 		<li><p>Copy the Raw_Dataset values into the Sheet2 tab. Rename this sheet Formatted_Data.</p></li>
 		<li><p>In the Formatted_Data sheet, add new columns with Insert > Columns for each distinct value in categorical data columns (tutorial_types, gender, exp_level, task1, task2, and task3). You do not have to add a new column for task1, task2, and task3 because their values are already dichotomous.</p></li>
@@ -80,9 +97,10 @@
 		<li><p>Replace dichotomous data values with "0" or "1" (0=no, 1=yes) using the replace function: Edit > Replace.</p></li>
 		<li><p>Your Formatted_Data spreadsheet should now look like Figure 3.</p></li>
 	</ol>
-
-	<img src="graphics/illustrations/datalesson_fig3 (1).png">
-	<p>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</p>
+	<div class="center">
+	<img src="graphics/illustrations/datalesson_fig3 (1).png" alt="Image of data table">
+	<p>Figure 3: Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</p>
+	</div>
 
 </body>
 
