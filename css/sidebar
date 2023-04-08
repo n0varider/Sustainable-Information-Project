@@ -1,0 +1,35 @@
+.sidebar aside {
+	padding: 20px 20px 5px 10px;
+	background: #FFFFFF;
+	position: relative;
+	border: 1px solid #000000;
+	font-size: 90%;
+	margin-bottom: 50px
+}
+
+.sidebar {
+	float: right;
+	width: 240px;
+	overflow: auto;
+	padding: 0px 20px ;
+	line-height: 130%;
+	text-align: justify;
+	clear: both;
+}
+
+.sidebar2 aside {
+	padding: 20px 20px 5px 10px;
+	background: #FFFFFF;
+	position: relative;
+	border: 1px solid #000000;
+	font-size: 90%;
+	margin-bottom: 50px
+}
+
+.sidebar2 {
+	float: right;
+	width: 680px;
+	padding: 0px 20px ;
+	line-height: 130%;
+	text-align: justify;
+}
