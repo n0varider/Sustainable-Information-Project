@@ -1,0 +1,42 @@
+#navsticky {
+    position: sticky;
+	top: 0%;
+    left: 0px;
+    height: 40px;
+    background-color: #e3e3e3;
+	border: 1px solid #77ccf2;
+    width: 60%;
+    margin: auto;
+}
+#navsticky ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;4
+}
+#navsticky li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#navsticky li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+#navsticky li a:hover {
+	background-color: gray;
+	color: white;
+}
+
+#navsticky li a:active {
+	background-color: #474747;
+}
+
+.current {
+	background-color: #a4a4a4;
+	color: white;
+}
