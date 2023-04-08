@@ -1,13 +1,13 @@
 #navsticky {
     position: sticky;
-	top: 0%;
+    top: 0%;
     left: 0px;
     height: 40px;
     background-color: #e3e3e3;
-	border: 1px solid #77ccf2;
+    border: 1px solid #77ccf2;
     width: 60%;
     margin: auto;
-	z-index: 99;
+    z-index: 99;
 }
 #navsticky ul {
     margin: 0;
